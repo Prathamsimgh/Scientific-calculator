@@ -66,6 +66,3 @@ The scientific calculator allows you to perform:
 - Trigonometric functions (sin, cos, tan)
 - Square roots, logarithms, and more.
 
-## License
-
-This project is open-source and available under the [Your License Name] License.
