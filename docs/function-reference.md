@@ -14,6 +14,7 @@ hyperbolic functions.
 | `(`, `)` | Parentheses; `=` auto-closes any unclosed `(` |
 | `EE` | Append exponent notation (`e`) |
 | `=` | Evaluate; unclosed parentheses are closed first, result is added to history |
+| `Rand` | Insert a random number in [0, 1) |
 
 ## Memory
 
@@ -53,6 +54,12 @@ hyperbolic functions.
 |-----|-------|
 | `π` | 3.14159265… |
 | `e` | 2.71828182… |
+
+## History
+
+Every `=` appends `expression = result` to the History panel below the
+keypad, newest last. History lives in memory only — it resets when the
+page is reloaded, and there is no button to clear it mid-session.
 
 ## Errors
 
